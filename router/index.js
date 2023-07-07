@@ -12,4 +12,5 @@ router.post('/login', body('email').isEmail(),
     body('password').isLength({min: 3, max: 32}), userController.login);
 router.post('/data', statisticsController.sendData);
 router.get('/data', statisticsController.getAllStatistics);
+router.post('/myData', statisticsController.getMyStatistics);
 module.exports = router;

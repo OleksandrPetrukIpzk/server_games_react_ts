@@ -17,5 +17,15 @@ class StatisticsController{
 
         }
     }
+    async getMyStatistics(req, res, next){
+        try {
+            const {name} = req.body;
+            const statisticsData = await statisticsService.getStatisticsThisUser(name)
+            return res.json(statisticsData);
+        }
+        catch (e){
+
+        }
+    }
 }
 module.exports = new StatisticsController()

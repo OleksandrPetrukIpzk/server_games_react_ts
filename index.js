@@ -13,14 +13,14 @@ app.use(cors());
 app.use(router);
 app.use(errorMiddleware);
 
-const start = async () =>{
-    try{
-      await mongoose.connect(db,{
-          useNewUrlParser: true,
-          useUnifiedTopology: true
-      })
+const start = async () => {
+    try {
+        await mongoose.connect(db, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        })
         app.listen(PORT, () => console.log("Server start"))
-    }catch (e) {
+    } catch (e) {
         console.log(e)
     }
 }

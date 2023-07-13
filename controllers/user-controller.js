@@ -29,6 +29,27 @@ class UserController{
             next(e);
         }
     }
+    async sendMoney(req, res, next){
+        try {
+            const {name, money}=  req.body;
+            const userData = await userService.setMoney(name, money);
+            return res.json(userData);
+        }
+        catch (e){
+
+        }
+    }
+    async getUser(req, res, next){
+        try{
+            const {name} =  req.body;
+            const userData = await userService.getUserName(name);
+            return res.json(userData);
+        }
+        catch (e){
+
+        }
+
+    }
 }
 
 module.exports = new UserController()

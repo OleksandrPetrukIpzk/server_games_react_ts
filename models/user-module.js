@@ -14,6 +14,10 @@ const UserSchema = new Schema({
     password: {
         type: String,
         required: true
+    },
+    money:{
+        type: Number,
+        required: false
     }
 })
 module.exports = model('User', UserSchema);

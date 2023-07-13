@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f2fb47bc-5949-4a38-bc6a-f8c15f7d4d81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/statistics-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/statistics-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dtos/user-dtos.js" beforeDir="false" afterPath="$PROJECT_DIR$/dtos/user-dtos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/statistics-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/statistics-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user-module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/statistics-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/statistics-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/user-services.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/user-services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.9.0",
     "javascript.nodejs.core.library.typings.version": "18.16.19",
-    "last_opened_file_path": "D:/Work/Resume site/server_to_game_react_ts",
+    "last_opened_file_path": "D:/Work/Resume site/react_game_ts_2.0/Games_In_React_TS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,7 +90,8 @@
       <workItem from="1688376650621" duration="5224000" />
       <workItem from="1688384368566" duration="764000" />
       <workItem from="1688718031321" duration="26000" />
-      <workItem from="1688718308215" duration="1798000" />
+      <workItem from="1688718308215" duration="1830000" />
+      <workItem from="1689234434840" duration="7565000" />
     </task>
     <servers />
   </component>

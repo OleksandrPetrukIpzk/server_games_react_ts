@@ -16,7 +16,6 @@ const StatisticsSchema = new Schema({
     commentaries: {
         type: String,
         required: true
-    }
+    },
 });
-
 module.exports = model('Statistic', StatisticsSchema)

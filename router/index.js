@@ -10,6 +10,8 @@ router.post('/registration', body('email').isEmail(),
     body('name').isLength({min: 3, max: 32}),userController.registration);
 router.post('/login', body('email').isEmail(),
     body('password').isLength({min: 3, max: 32}), userController.login);
+router.post('/user', userController.sendMoney);
+router.post('/getData', userController.getUser)
 router.post('/data', statisticsController.sendData);
 router.get('/data', statisticsController.getAllStatistics);
 router.post('/myData', statisticsController.getMyStatistics);
